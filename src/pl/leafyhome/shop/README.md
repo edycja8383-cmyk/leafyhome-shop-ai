@@ -26,3 +26,20 @@ An interactive console application written in Java that simulates an intelligent
 4. Type your gardening problem into the console and chat with your AI Green Advisor!
 
 _Just remember to change **YourGitHubUsername** to your actual GitHub username before committing. Once you add this, just Commit and Push, and your documentation will be complete and fully professional!_
+
+## 🗺️ Future Improvements (To-Do)
+
+Here are the next simple steps planned to improve and expand this application:
+
+### 1. Data Management & Validation
+* **Load Products from File:** Instead of hardcoding products in Java, load the store inventory dynamically from a simple `.txt` or `.csv` file.
+* **Input Validation:** Add secure checks to prevent the application from crashing if a user inputs empty text or incorrect characters.
+* **Save Chat History:** Export the entire conversation with the AI advisor to a local log file (`chat_history.txt`) at the end of the session.
+
+### 2. Business & Logic Expansion
+* **Basic Discount Codes:** Update the `PricingEngine` to allow users to type a promo code (e.g., `SUMMER10`) to get a 10% discount on their total order.
+* **Low Stock Alerts:** Add a simple mechanism that highlights or flags products in the console when their stock level drops below 3 items.
+
+### 3. Quality & Code Cleanliness
+* **Unit Tests:** Write basic JUnit tests for the `PricingEngine` to ensure that discounts and stock checks calculate perfectly every time.
+* **Interactive Menu:** Replace the continuous text prompt with a simple numbered console menu (e.g., `1. Ask Advisor, 2. View Stock, 3. Exit`).
