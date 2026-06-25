@@ -1,4 +1,4 @@
-# 🌿 AI Recommendation System - Lux Garden Shop
+# 🌿 AI Recommendation System - LEAFY HOME Garden Shop
 
 An interactive console application written in Java that simulates an intelligent customer assistant for a gardening store. The project leverages the **LangChain4j** framework and the **Llama 3.3** model (via **Groq API**) to dynamically respond to customer inquiries based on real-time stock levels and a personalized pricing engine.
 
